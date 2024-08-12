@@ -13,8 +13,10 @@ class RowExample extends StatelessWidget {
           height: 200.0,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.baseline,
+            textDirection: TextDirection.ltr,
+            verticalDirection: VerticalDirection.down,
+            textBaseline: TextBaseline.ideographic,
             children: [
               Container(
                 alignment: Alignment.center,

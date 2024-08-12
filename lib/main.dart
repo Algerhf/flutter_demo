@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'row_example.dart';
-
-
+import 'align_example.dart';
+import 'fractionally_sized_box_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,9 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: RowExample(),
+      home: AlignExample(),
     );
   }
 }
-
-
