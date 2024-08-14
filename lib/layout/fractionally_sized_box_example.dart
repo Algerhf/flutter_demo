@@ -10,11 +10,11 @@ class FractionallySizedBoxExample extends StatelessWidget{
           color: Colors.grey[300],
           child: FractionallySizedBox(
             alignment: Alignment.center,
-            widthFactor: 2,
-            heightFactor: 2,
+            widthFactor: 0.5,
+            heightFactor: 0.5,
             child: Container(
-              width: 100.0,
-              height: 100.0,
+              // width: 100.0,
+              // height: 100.0,
               alignment: Alignment.center,
               color: Colors.blue,
               child: Text('50%',style: TextStyle(color: Colors.white),),

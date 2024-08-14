@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'align_example.dart';
-import 'fractionally_sized_box_example.dart';
+import 'package:flutter_demo/text/markdown_example.dart';
+import 'package:flutter_demo/text/selectable_text_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AlignExample(),
+      home: SelectableTextExample(),
     );
   }
 }
