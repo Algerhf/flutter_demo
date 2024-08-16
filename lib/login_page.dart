@@ -5,12 +5,15 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         body: Center(
-          child: Text('登陆页面'),
+          child: ElevatedButton(
+            onPressed: (){
+              Navigator.of(context).pop();
+            },
+              child:Text('登录页面'),
+          )
         ),
-      ),
-    );
+      );
   }
 }
